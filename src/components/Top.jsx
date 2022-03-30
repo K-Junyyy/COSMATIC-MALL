@@ -13,7 +13,6 @@ function Top() {
           Cosmatic Mall
         </Header>
       </div>
-
       <Gnb></Gnb>
     </div>
   );

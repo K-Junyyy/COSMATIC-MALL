@@ -1,0 +1,31 @@
+.item {
+  .container {
+    display: flex;
+    margin-bottom: 40px;
+    img {
+      margin-top: 20px;
+      margin-right: 40px;
+    }
+    .info {
+      margin-top: 40px;
+      .name {
+        display: block;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .price {
+        display: block;
+        font-size: 30px;
+        color: #00bcd4;
+      }
+      .type {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 16px;
+      }
+    }
+  }
+  .description {
+    margin: 20px 0px 60px;
+  }
+}

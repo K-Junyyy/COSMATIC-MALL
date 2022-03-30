@@ -1,0 +1,26 @@
+.item-list {
+  text-align: center;
+  padding-bottom: 20px;
+  cursor: pointer;
+  img {
+    margin: 0px auto;
+  }
+  .title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    width: 160px;
+    margin: 10px auto;
+  }
+  .info {
+    display: block;
+    margin-bottom: 10px;
+    color: #999999;
+  }
+  .price {
+    font-size: 17px;
+    font-weight: bold;
+    color: #00bcd4;
+  }
+}

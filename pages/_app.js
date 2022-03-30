@@ -1,3 +1,6 @@
+import "@/styles/globals.scss";
+import "@/styles/ItemList.scss";
+import "@/styles/Item.scss";
 import "semantic-ui-css/semantic.min.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -7,7 +10,7 @@ import Footer from "@/components/Footer";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className=" ms-5 me-5">
+    <div style={{ width: "1000px", margin: "0px auto" }}>
       <Top></Top>
       <Component {...pageProps} />
       <Footer></Footer>
