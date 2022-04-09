@@ -3,7 +3,7 @@ import { Header, Divider, List, Form, Button } from "semantic-ui-react";
 
 export default function about() {
   return (
-    <div>
+    <div className="about">
       <Header as="h3" style={{ paddingTop: 40 }} color="black">
         회사소개
       </Header>

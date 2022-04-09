@@ -2,12 +2,14 @@
   .container {
     display: flex;
     margin-bottom: 40px;
-    img {
+    .img {
+      position: relative;
       margin-top: 20px;
       margin-right: 40px;
     }
     .info {
       margin-top: 40px;
+      margin-left: 50px;
       .name {
         display: block;
         font-size: 24px;
@@ -17,11 +19,13 @@
         display: block;
         font-size: 30px;
         color: #00bcd4;
+        margin-top: 20px;
       }
       .type {
         display: block;
         font-size: 20px;
         margin-bottom: 16px;
+        margin-top: 20px;
       }
     }
   }

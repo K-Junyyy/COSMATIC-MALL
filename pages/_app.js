@@ -1,9 +1,9 @@
 import "@/styles/globals.scss";
+import "@/styles/ErrorPages.scss";
 import "@/styles/ItemList.scss";
 import "@/styles/Item.scss";
+import "@/styles/about.scss";
 import "semantic-ui-css/semantic.min.css";
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap-icons/font/bootstrap-icons.css";
 
 import Top from "@/components/Top";
 import Footer from "@/components/Footer";

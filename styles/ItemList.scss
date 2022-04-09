@@ -2,7 +2,8 @@
   text-align: center;
   padding-bottom: 20px;
   cursor: pointer;
-  img {
+  .img {
+    position: relative;
     margin: 0px auto;
   }
   .title {
@@ -12,6 +13,8 @@
     overflow: hidden;
     width: 160px;
     margin: 10px auto;
+    font-weight: bold;
+    color: #414bff;
   }
   .info {
     display: block;

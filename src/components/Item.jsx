@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Button, Header, Divider } from "semantic-ui-react";
 
 function Item({ item }) {
@@ -15,7 +16,16 @@ function Item({ item }) {
   return (
     <div className="item">
       <div className="container">
-        <img src={image_link} alt={name} />
+        <div className="img">
+          <Image
+            src={image_link}
+            alt={name}
+            width="200px"
+            height="200px"
+            objectFit="contain"
+          ></Image>
+        </div>
+
         <div className="info">
           <strong className="name">{name}</strong>
           <strong className="price">${price}</strong>

@@ -8,7 +8,7 @@ function Top() {
   return (
     <div className="pt-3">
       <div className="d-flex">
-        <Image src={Logo} alt="logo" width={100} height={100}></Image>
+        <Image src={Logo} alt="logo" width="100px" height="100px"></Image>
         <Header className="mt-5" as="h1">
           Cosmatic Mall
         </Header>
